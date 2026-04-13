@@ -1,0 +1,16 @@
+
+target/
+.metadata/
+RemoteSystemsTempFiles/
+*.class
+*.jar
+*.war
+.DS_Store
+.idea/
+*.iml
+*.log
+.settings/
+.classpath
+.project
+**/.env
+*.env
