@@ -91,7 +91,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
         	    "http://localhost:5173",
-        	    "https://shopease-frontend.vercel.app"
+        	    "https://shopease-frontend-nu.vercel.app",
+        	    "https://shopease-frontend-git-main-dinesh-gurus-projects-96bba260.vercel.app"
         	));
         config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
